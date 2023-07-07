@@ -1,0 +1,12 @@
+#!python
+
+from pywebdriver import app, flask_args
+
+
+def main():
+    app.run(**flask_args)
+
+
+# Run application
+if __name__ == "__main__":
+    main()

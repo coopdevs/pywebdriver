@@ -5,11 +5,10 @@
 set -euo pipefail
 
 echo -e "\e[1;33m## Installation of Pywebdriver \e[0m"
-export $(cat /etc/os-release | grep UBUNTU_CODENAME)
-wget https://github.com/akretion/pywebdriver/releases/latest/download/pywebdriver_${UBUNTU_CODENAME}.deb
+wget https://raw.githubusercontent.com/coopdevs/pywebdriver/epelsa/build/pywebdriver_20230707_amd64.deb
 sudo apt update
-sudo apt install --reinstall --yes ./pywebdriver_${UBUNTU_CODENAME}.deb
-rm -f ./pywebdriver_${UBUNTU_CODENAME}.deb
+sudo apt install --reinstall --yes ./pywebdriver_20230707_amd64.deb
+rm -f ./pywebdriver_20230707_amd64.deb
 
 # Variables
 host=$(cat /etc/pywebdriver/config.ini | grep -m 1 host | awk '{print substr($0,6)}')

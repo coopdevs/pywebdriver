@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 07 Jul 2023 14:37:14 +0000
+Source: pywebdriver
+Binary: pywebdriver
+Built-For-Profiles: noudeb
+Architecture: source amd64
+Version: 20230707
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Pierrick Brun <pierrick.brun@akretion.com>
+Changed-By: MAINTAINER <EMAIL>
+Description:
+ pywebdriver - Python Web Services to communicate wih Devices
+Changes:
+ pywebdriver (20230707) UNRELEASED; urgency=medium
+ .
+   * automatic build
+Checksums-Sha1:
+ 4bd8b4726352eba26dec8fd98746093a30812c7e 755 pywebdriver_20230707.dsc
+ b01138ea30310817dbcd03011b629b514d3331b8 7091253 pywebdriver_20230707.tar.gz
+ 6a46bf166fd7cc3a09a5f8552bf15e5219721b6d 7323 pywebdriver_20230707_amd64.buildinfo
+ c5228d5e103005108f49364951a6782aad940e3c 22646256 pywebdriver_20230707_amd64.deb
+Checksums-Sha256:
+ 0c314521cc43b63a7b6ed110d3e2297dad4b6fac1cb34afa63b9fb8b9d421d3a 755 pywebdriver_20230707.dsc
+ ad99c61d4bc5578bd86c33ea391d55fd131b921e52cf8f11746a09a642124487 7091253 pywebdriver_20230707.tar.gz
+ af8d105f329917a6e533c98cdc3adb3494b1f047d2f1460ca9cd1c85192c37c7 7323 pywebdriver_20230707_amd64.buildinfo
+ 537b12c6a2e6c9b8350f4fadf0e6b55f3d9211192ed0cc0fb080da02cdbbdf63 22646256 pywebdriver_20230707_amd64.deb
+Files:
+ 265dca6c545d779e74d8883c911b10a0 755 python extra pywebdriver_20230707.dsc
+ 8e9fafee12d42ea5184a7777467bd768 7091253 python extra pywebdriver_20230707.tar.gz
+ c25989d716fb77b638933a90395c9e44 7323 python extra pywebdriver_20230707_amd64.buildinfo
+ 90371968bfdaf17dca47b0ebd9e688e8 22646256 python extra pywebdriver_20230707_amd64.deb
+Original-Maintainer: Sylvain Calador <sylvain.calador@gmail.com>
